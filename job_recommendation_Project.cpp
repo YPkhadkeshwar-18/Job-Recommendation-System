@@ -22,7 +22,6 @@ void solve()
     job["Chef"] = {{15, "Team_work"}, {25, "Something_creative"}, {35, "Love_your_job"}, {45, "Multitasking"}};
     job["Author"] = {{15, "Artistic"}, {25, "Something_creative"}, {35, "Reading/Writing"}, {45, "Imagination_beyond_bound"}};
     job["Scientist"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
-
     job["Fashion_designer"] = {{15, "Both_passion_and_money"}, {25, "Perfect_planner"}, {35, "Love_your_job"}, {45, "Something_creative"}};
     job["Artist"] = {{15, "Work_from_home"}, {25, "Imagination_beyond_bound"}, {35, "Something_creative"}, {45, "Artistic"}};
     job["Philosopher"] = {{15, "Calm"}, {25, "Confidence"}, {35, "Positive_attitude"}, {45, "Good_communication"}};
@@ -36,7 +35,6 @@ void solve()
     job["Manager"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
     job["Architect"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
     job["Astronaut"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}}; 
-
     job["Judge"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
     job["Businessman"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
     job["Chartered_accountant"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
