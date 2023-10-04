@@ -12,17 +12,36 @@ void solve()
 {
     map<string, vector<pair<int, string>>>job;
     
-    job["Doctor"] = {{15, "Calm"}, {25, "Study"}, {35, "Work_remotely"}, {45, "Both_passion_and_money"}};
-    job["Poet"] = {{15, "Love_job"}, {25, "People_hangout"}, {35, "Analytical"}, {45, "Artistic"}};
-    job["Professor"] = {{15, "Study"}, {25, "Good_communication"}, {35, "Monday_to_friday"}, {45, "Quiet_and_focused"}};
-    job["Soldier"] = {{15, "Enthausistic"}, {25, "Positive_attitude"}, {35, "Hard_word"}, {45, "Adapting_surrounding"}};
-    job["Engineer"] = {{15, "Innovative"}, {25, "Problem_solving_ability"}, {35, "Communication_skill"}, {45, "Team_work"}};
-    job["Political"] = {{15, "Dealing_with_people"}, {25, "Decision_making_skills"}, {35, "Leadership"}, {45, "Communication_skill"}};
-    job["Lawyer"] = {{15, "Research_skill"}, {25, "Confidence"}, {35, "Negoation_skill"}, {45, "Professionalism"}};
-    job["Chef"] = {{15, "Passion_for_cooking"}, {25, "Taste_and_flavour_sensitivity"}, {35, "Adaptibility"}, {45, "Passion_for_hospitality"}};
-    job["Author"] = {{15, "Love_to_writing"}, {25, "Creativiy"}, {35, "Imagination"}, {35, "Story_telling"}, {45, "Reading_habbit"}};
-    job["Scientist"] = {{15, "Analytical_thinking"}, {25, "Research_skill"}, {35, "Problem_solving_ability"}, {45, "Curiosity"}};
+    job["Doctor"] = {{15, "Calm"}, {25, "Both_passion_and_money"}, {35, "Work_remotely_with_colleagues"}, {45, "Study"}};
+    job["Poet"] = {{15, "Reading/Writing"}, {25, "Love_your_job"}, {35, "Imagination_beyond_bound"}, {45, "Something_creative"}};
+    job["Professor"] = {{15, "Monday_to_friday"}, {25, "Good_communication"}, {35, "Study"}, {45, "Quiet_and_focused"}};
+    job["Soldier"] = {{15, "Positive_attitude"}, {25, "Enthausiastic"}, {35, "Hard_word"}, {45, "Adapting_surrounding"}};
+    job["Engineer"] = {{15, "Team_work"}, {25, "Communication_skill"}, {35, "Innovative"}, {45, "Problem_solving_ability"}};
+    job["Political"] = {{15, "Decision_making_skills"}, {25, "Communication_skill"}, {35, "Dealing_with_people"}, {45, "Leadership"}};
+    job["Lawyer"] = {{15, "Confidence"}, {25, "Dealing_with_people"}, {35, "Negotiative"}, {45, "Research_skill"}};
+    job["Chef"] = {{15, "Team_work"}, {25, "Something_creative"}, {35, "Love_your_job"}, {45, "Multitasking"}};
+    job["Author"] = {{15, "Artistic"}, {25, "Something_creative"}, {35, "Reading/Writing"}, {45, "Imagination_beyond_bound"}};
+    job["Scientist"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
 
+    job["Fashion_designer"] = {{15, "Both_passion_and_money"}, {25, "Perfect_planner"}, {35, "Love_your_job"}, {45, "Something_creative"}};
+    job["Artist"] = {{15, "Work_from_home"}, {25, "Imagination_beyond_bound"}, {35, "Something_creative"}, {45, "Artistic"}};
+    job["Philosopher"] = {{15, "Calm"}, {25, "Confidence"}, {35, "Positive_attitude"}, {45, "Good_communication"}};
+    job["Government_servant"] = {{15, ""}, {25, "To_achieve_big_success"}, {35, "9 to 5 job"}, {45, "Study"}};
+
+
+    
+    job["Dancer"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Flexible"}};
+    job["Beautician"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
+    job["Actor"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
+    job["Manager"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
+    job["Architect"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
+    job["Astronaut"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}}; 
+
+    job["Judge"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
+    job["Businessman"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
+    job["Chartered_accountant"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
+    job["Sportsman"] = {{15, "Analytical_thinking"}, {25, "Problem_solving_ability"}, {35, "Research_skill"}, {45, "Curiosity"}};
+    
     int n; cin >> n;
     string skill[n];
     for(int i = 0;i < n;i++) cin >> skill[i];
